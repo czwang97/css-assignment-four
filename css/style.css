@@ -1,0 +1,100 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+section{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  margin: 30px auto;
+  width: 100%;
+}
+
+div {
+  display: inline-block;
+  margin: 2% 0;
+  width: 100%;
+  padding: auto;
+  text-align: left;
+}
+
+@media screen and (min-width: 605px) {
+  div {
+    margin: 1%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 985px) {
+  div {
+    margin: 1%;
+    width: 20%;
+  }
+}
+
+h1 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.preview {
+  height: 300px;
+}
+
+@media screen and (min-width: 375px) {
+  .preview {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .preview {
+    height: 315px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .preview {
+    height: 250px;
+  }
+}
+
+.preview h1 {
+  font-size: 2.5em;
+  font-family: times;
+  text-transform: none;
+  letter-spacing: 0px;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.baku {
+  background-image: url('/images/baku.jpg');
+  background-size: cover
+}
+
+.london {
+  background-image: url('/images/london.png');
+  background-size: cover;
+}
+
+.madrid {
+  background-image: url('/images/madrid.jpg');
+  background-size: cover;
+}
+
+.rome {
+  background-image: url('/images/rome.jpg');
+  background-size: cover;
+}
